@@ -1,4 +1,4 @@
-authors: Asaf Hakmon 205364409 and Omer Shimoni 318201597
+authors: Asaf Hakmon and Omer Shimoni
 
 # Bitcoin Tweets & Price Correlation - Final Project
 
@@ -14,8 +14,6 @@ This project analyzes the relationship between Bitcoin-related discussions on Tw
 ├── project.py   # Loads and processes data into DuckDB
 ├── sqlite.py    # Transfers processed data from DuckDB to SQLite
 ├── dashboard.py # Streamlit dashboard for data visualization
-├── db_file.duckdb # DuckDB database file (processed data)
-├── db_file.sqlite # SQLite database file (for dashboard queries)
 ├── Bitcoin_tweets.csv  # Large dataset of tweets about Bitcoin
 ├── BTC_value_per_day.csv  # Bitcoin price history per day
 ├── requirements.txt # Required Python libraries
@@ -91,6 +89,7 @@ This project analyzes the relationship between Bitcoin-related discussions on Tw
 - There is a noticeable correlation between Bitcoin-related Twitter activity and price fluctuations.
 - Geographic analysis highlights the most active regions in Bitcoin discussions.
 - Sentiment analysis shows trends in positive vs. negative discussions related to Bitcoin price changes.
+
 
 
 
